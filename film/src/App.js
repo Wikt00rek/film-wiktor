@@ -16,6 +16,7 @@ function App() {
         <div class="mb-3 form-check">
         <label for="disabledSelect" class="form-label">Wybierz rodzaj filmu </label>
       <select id="disabledSelect" class="form-select">
+        <option>Pusta</option>
         <option>Komedia</option>
         <option>Kryminał</option>
         <option>Horror</option>
