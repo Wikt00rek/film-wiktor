@@ -5,9 +5,11 @@ function App() {
   return (
     <div className="App">
       <form>
+        <div>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Tytuł filmu: </label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+          <label for="film" class="form-label">Tytuł filmu: </label>
+          <input type="text" class="form-control" id="film"/>
+          </div>
             <div id="emailHelp" class="form-text">Wybierz rodzaj filmu</div>
         </div>
         <div class="mb-3"><input type="email" class="form-control" id="film"/>
