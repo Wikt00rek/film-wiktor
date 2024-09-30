@@ -1,6 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 function App() {
+  const [tytul, setTytul] = useState("");
+  const [rodzaj, setRodzaj] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(`Tytuł; ${tytul}, Rodzaj: ${rodzaj}`);
+  }
   return (
     <div className="App">
       <form>
